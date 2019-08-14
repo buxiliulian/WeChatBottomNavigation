@@ -1,5 +1,5 @@
 # WeChatBottomNavigation
-高仿微信底部导航栏动画
+高仿微信底部导航栏动画，几乎一毛一样。
 
 # 动画演示
 ![动画演示](https://github.com/buxiliulian/WeChatBottomNavigation/blob/master/gif/weixin.gif)
@@ -19,6 +19,14 @@
             android:layout_weight="1" />
 ```
 
+`tabImage`属性代表默认显示的图片
+
+`tabSelectedImage`属性代表选中时的图片
+
+`tabColor`属性代表颜色变换的最终颜色
+
+`tabTitle`代表标题
+
 ## Activity中控制进度
 ```java
         mViewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
@@ -34,3 +42,9 @@
         });
 ```
 
+`ViewPager`监听滑动事件，向`TabView`传入一个进度值，从而控制`TabView`的动画
+
+# 联系我
+1. blog: https://my.csdn.net/zwlove5280
+2. QQ Email: 509643792@qq.com
+3. Gmail: zwlove5250@gmail.com
