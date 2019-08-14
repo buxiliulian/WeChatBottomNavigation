@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
              */
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                Log.d("david", "position = " + position + ", positionOffset = " + positionOffset);
                 // 左边View进行动画
                 mTabViews.get(position).setXPercentage(1 - positionOffset);
                 // 如果positionOffset非0，那么就代表右边的View可见，也就说明需要对右边的View进行动画
