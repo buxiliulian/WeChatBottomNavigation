@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bxll="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:padding="8dp"
+        android:background="#ffeeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <com.uni.wechatbottomnavigation.view.TabView
+            android:id="@+id/tab_weixin"
+            bxll:tabImage="@mipmap/weixin_normal"
+            bxll:tabSelectedImage="@mipmap/weixin_pressed"
+            bxll:tabColor="#FF11E53F"
+            bxll:tabTitle="微信"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.uni.wechatbottomnavigation.view.TabView
+            android:id="@+id/tab_contact"
+            bxll:tabImage="@mipmap/contact_list_normal"
+            bxll:tabSelectedImage="@mipmap/contact_list_pressed"
+            bxll:tabColor="#FF11E53F"
+            bxll:tabTitle="联系人"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.uni.wechatbottomnavigation.view.TabView
+            android:id="@+id/tab_find"
+            bxll:tabImage="@mipmap/find_normal"
+            bxll:tabSelectedImage="@mipmap/find_pressed"
+            bxll:tabColor="#FF11E53F"
+            bxll:tabTitle="发现"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.uni.wechatbottomnavigation.view.TabView
+            android:id="@+id/tab_profile"
+            bxll:tabImage="@mipmap/profile_normal"
+            bxll:tabColor="#FF11E53F"
+            bxll:tabSelectedImage="@mipmap/profile_pressed"
+            bxll:tabTitle="我"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabView">
+        <attr name="tabColor" format="color|integer" />
+        <attr name="tabImage" format="reference" />
+        <attr name="tabSelectedImage" format="reference" />
+        <attr name="tabTitle" format="string|reference" />
+    </declare-styleable>
+</resources>

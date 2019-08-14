@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_array">
+        <item>微信</item>
+        <item>联系人</item>
+        <item>发现</item>
+        <item>我</item>
+    </string-array>
+</resources>
