@@ -45,6 +45,6 @@
 `ViewPager`监听滑动事件，向`TabView`传入一个进度值，从而控制`TabView`的动画
 
 # 联系我
-1. blog: https://my.csdn.net/zwlove5280
+1. blog: https://juejin.im/post/5d5365876fb9a06b130f1aa6
 2. QQ Email: 509643792@qq.com
 3. Gmail: zwlove5250@gmail.com
