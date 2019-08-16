@@ -2,7 +2,7 @@
 高仿微信底部导航栏动画，几乎一毛一样。
 
 # 动画演示
-![动画演示](https://github.com/buxiliulian/WeChatBottomNavigation/blob/master/gif/weixin.gif)
+![动画演示](https://github.com/buxiliulian/WeChatBottomNavigation/blob/master/gif/weixin2.gif)
 
 # 如何使用
 
