@@ -27,7 +27,7 @@ public class TabView extends FrameLayout {
     private static final int DEFAULT_TAB_COLOR = 0xff000000;
 
     // 标题和轮廓图最终的着色
-    private static final int DEFAULT_TAB_TARGET_COLOR = 0x11E53;
+    private static final int DEFAULT_TAB_TARGET_COLOR = 0xFF45C01A;
 
     public TabView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
